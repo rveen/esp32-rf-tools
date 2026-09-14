@@ -1,0 +1,223 @@
+(footprint "nRF24L01_PA_LNA_SMA"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "nRF24L01+PA+LNA 2.4 GHz module with SMA antenna connector, 41 x 15.5 mm, 2x4 header 2.54 mm; board end 2.0 mm from pin 1 column (measured), header centred across the board and SMA overhang about 6.7 mm (estimated from the Handsontec pinout picture); courtyard covers the SMA connector but not the antenna: https://www.handsontec.com/dataspecs/module/NRF24L01+PA.pdf")
+	(tags "nRF24L01 PA LNA SMA 2.4GHz RF module")
+	(property "Reference" "REF**"
+		(at 18.5 -5.44 0)
+		(layer "F.SilkS")
+		(uuid "b45a777c-41b6-49b4-bc76-2f45dc43bfd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "nRF24L01_PA_LNA_SMA"
+		(at 18.5 13.06 0)
+		(layer "F.Fab")
+		(uuid "4ed09f91-3c0a-40b4-842c-9ef77a3bea37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.handsontec.com/dataspecs/module/NRF24L01+PA.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6269a300-2caa-4139-95fb-16bfddea8ee3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "nRF24L01+PA+LNA module with SMA antenna connector"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1b8923e-1a53-4721-8247-a459a804fc07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.11 -4.05)
+		(end 39.11 11.67)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2f03007f-e1fb-4c28-9308-f954f56b8561")
+	)
+	(fp_rect
+		(start -1.33 -1.33)
+		(end 3.87 8.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7bcd3892-909c-4e5d-817c-bab815779e8c")
+	)
+	(fp_poly
+		(pts
+			(xy 5.2 0) (xy 5.7 -0.4) (xy 5.7 0.4)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "358e6ddb-94cf-40b9-ba29-7e51a25738bc")
+	)
+	(fp_poly
+		(pts
+			(xy -2.25 -4.19) (xy 39.25 -4.19) (xy 39.25 0.31) (xy 45.95 0.31) (xy 45.95 7.31) (xy 39.25 7.31)
+			(xy 39.25 11.81) (xy -2.25 11.81)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1c0f2555-e2c3-4f9c-b5f4-035ef217af72")
+	)
+	(fp_rect
+		(start -2 -3.94)
+		(end 39 11.56)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f7423a0d-9e99-48eb-967e-284a8f2af945")
+	)
+	(fp_rect
+		(start -1.27 -1.27)
+		(end 3.81 8.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0c712e20-3234-411e-b567-e511ee7f81b0")
+	)
+	(fp_rect
+		(start 39 0.56)
+		(end 45.7 7.06)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "01985dcd-418b-4267-942f-b552c5669309")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 20 3.81 0)
+		(layer "F.Fab")
+		(uuid "0e61dcf7-2efd-47c5-b5e1-51a286f3bead")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "SMA"
+		(at 42.35 3.81 0)
+		(layer "F.Fab")
+		(uuid "92e11490-613f-41ed-bb1d-ec10d31a24a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "570e57a8-852b-4a93-913c-18ba44992134")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c6e9d53a-57ea-4350-9d7c-dc09394380ba")
+	)
+	(pad "3" thru_hole circle
+		(at 0 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1303db9d-a74b-4d5d-9eed-cfe4a8b95368")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1c9038e6-5d5b-45e6-8cf7-f50a85c403e8")
+	)
+	(pad "5" thru_hole circle
+		(at 0 5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "245f3da2-cf81-4e9f-93ff-6a370bf28603")
+	)
+	(pad "6" thru_hole circle
+		(at 2.54 5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "557a5e8f-1242-4a0b-83f0-623a788cf8bd")
+	)
+	(pad "7" thru_hole circle
+		(at 0 7.62)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa39e821-9035-45b2-b851-97e6cc58bae5")
+	)
+	(pad "8" thru_hole circle
+		(at 2.54 7.62)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c214d057-3e1f-4fdc-a7a9-2424bd81979a")
+	)
+	(embedded_fonts no)
+)
