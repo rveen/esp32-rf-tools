@@ -1,0 +1,111 @@
+(footprint "Battery 902030"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -8 -8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b578f3ff-9ad1-4c44-8680-835a171cbe89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Battery 902030"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bd8bf2f5-6a4a-44ca-932b-399dbb7a41d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e09840c5-332d-4c3f-a769-9720863a764e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4e6f659-c732-4866-9f66-e8791cc61d11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -10 -7)
+		(end -10 13)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "45e6c8e5-06dd-4998-baab-773d135c0a40")
+	)
+	(fp_line
+		(start -10 -7)
+		(end 21 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c11373f4-d21b-42b7-a4d4-66f6d111fa6d")
+	)
+	(fp_line
+		(start -10 13)
+		(end 21 13)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1e35ab48-38f2-4c19-a4e1-1eda274f561a")
+	)
+	(fp_line
+		(start 21 13)
+		(end 21 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9df7d767-35f0-454e-9c76-0be8b838e1c2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "56b80bfb-619c-40b3-b106-0909f303b0bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
